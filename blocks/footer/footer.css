@@ -5,3 +5,18 @@
   max-width: 1184px;
   padding: 0 48px 24px;
 }
+
+
+@media all and (max-width: 1023px) {
+  .footer {
+    padding: 0 24px 24px;
+  }
+}
+
+
+@media all and (max-width: 767px) {
+  .footer {
+    display: block;
+    padding: 0 16px 24px;
+  }
+}

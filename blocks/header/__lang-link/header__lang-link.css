@@ -17,3 +17,9 @@
 .header__lang-link:active {
   opacity: 0.5;
 }
+
+@media all and (max-width: 767px) {
+  .header__lang-link {
+    font-size: 18px;
+  }
+}

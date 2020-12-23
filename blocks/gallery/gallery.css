@@ -2,3 +2,15 @@
   max-width: 1180px;
   padding: 0 48px;
 }
+
+@media all and (max-width: 1023px) {
+  .gallery {
+    padding: 0 24px;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .gallery {
+    padding: 0 16px;
+  }
+}

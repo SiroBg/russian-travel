@@ -1,4 +1,16 @@
 .places {
   max-width: 984px;
-  padding: 52px 0;
+  padding: 52px 48px;
+}
+
+@media all and (max-width: 1023px) {
+  .places {
+    padding: 52px 24px;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .places {
+    padding: 39px 0;
+  }
 }

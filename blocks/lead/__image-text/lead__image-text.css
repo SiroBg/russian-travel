@@ -1,0 +1,25 @@
+.lead__image-text {
+  max-width: 984px;
+  margin: 0 auto;
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
+@media all and (max-width: 1279px) {
+  .lead__image-text {
+    max-width: 928px;
+  }
+}
+
+@media all and (max-width: 1023px) {
+  .lead__image-text {
+    padding: 0 24px;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .lead__image-text {
+    padding: 0 16px;
+  }
+}

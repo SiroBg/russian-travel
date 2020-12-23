@@ -1,9 +1,20 @@
 .header {
   max-width: 1180px;
-  padding: 0 48px;
+  padding: 28px 48px 0;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
   flex-wrap: wrap;
-  padding-top: 28px;
+}
+
+@media all and (max-width: 1023px) {
+  .header {
+    padding: 28px 24px 0;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .header {
+    padding: 16px 16px 0;
+  }
 }

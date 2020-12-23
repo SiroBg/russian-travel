@@ -6,3 +6,10 @@
   text-align: center;
   color: #fff;
 }
+
+@media all and (max-width: 767px) {
+  .cover__subtitle {
+    max-width: 288px;
+    font-size: 14px;
+  }
+}

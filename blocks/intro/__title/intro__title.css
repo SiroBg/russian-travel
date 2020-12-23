@@ -3,3 +3,9 @@
   font-family: "Inter Black", "Arial", sans-serif;
   font-size: 54px;
 }
+
+@media all and (max-width: 767px) {
+  .intro__title {
+    font-size: 32px;
+  }
+}

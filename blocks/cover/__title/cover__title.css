@@ -1,8 +1,15 @@
 .cover__title {
-  width: 560px;
-  margin: 0 0 32px;
+  max-width: 560px;
+  margin: 0 auto 32px;
   font-family: "Inter Black", "Arial", sans-serif;
   font-size: 72px;
   text-align: center;
   color: #fff;
+}
+
+@media all and (max-width: 767px) {
+  .cover__title {
+    max-width: 250px;
+    font-size: 32px;
+  }
 }
