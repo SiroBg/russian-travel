@@ -1,0 +1,17 @@
+.place__link-text {
+  display: block;
+  margin-top: 12px;
+  font-size: 18px;
+  text-transform: none;
+  letter-spacing: normal;
+  color: #fff;
+  transition: opacity 0.2s ease-in;
+}
+
+.place__link-text:hover {
+  opacity: 0.8;
+}
+
+.place__link-text:active {
+  opacity: 0.5;
+}

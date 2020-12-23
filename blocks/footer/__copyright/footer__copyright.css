@@ -1,0 +1,14 @@
+.footer__copyright {
+  font-size: 14px;
+  text-decoration: none;
+  color: #fff;
+  transition: opacity 0.2s ease-in;
+}
+
+.footer__copyright:hover {
+  opacity: 0.8;
+}
+
+.footer__copyright:active {
+  opacity: 0.5;
+}

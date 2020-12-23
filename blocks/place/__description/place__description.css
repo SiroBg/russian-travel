@@ -1,0 +1,9 @@
+.place__description {
+  margin: 0 0 26px;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.place__description:last-of-type {
+  margin-bottom: 0;
+}

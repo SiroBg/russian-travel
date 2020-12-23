@@ -1,0 +1,11 @@
+.header__link {
+  transition: opacity 0.2s ease-in;
+}
+
+.header__link:hover {
+  opacity: 0.8;
+}
+
+.header__link:active {
+  opacity: 0.5;
+}
