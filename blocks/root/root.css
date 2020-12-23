@@ -1,5 +1,6 @@
 .root {
-  font-family: "Inter Regular", "Arial", sans-serif;
+  font-family: "Inter", "Arial", sans-serif;
+  font-weight: 400;
   color: #fff;
   background-color: #2A2C2F;
   -moz-osx-font-smoothing: grayscale;
