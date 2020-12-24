@@ -4,25 +4,31 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Путешествие по России</title>
-  <link rel="stylesheet" href="./vendor/normalize.css">
   <link rel="stylesheet" href="./pages/index.css">
 </head>
 <body class="root">
   <header class="root__section header">
     <a href="#" class="header__link" target="_blank">
-      <img class="logo" src="images/header-logo.svg" alt="Логотип Россия">
+      <img class="logo" src="./images/header-logo.svg" alt="Логотип Россия">
     </a>
-    <p class="header__lang">
-      <a href="#" class="header__lang-link header__lang-link_type_current" target="_blank">Ru</a><a href="#" class="header__lang-link" target="_blank">En</a>
-    </p>
+    <ul class="header__lang-list">
+      <li class="header__lang-item">
+        <a href="#" class="header__lang-link header__lang-link_type_current" target="_blank">Ru</a>
+      </li>
+      <li class="header__lang-item">
+        <a href="#" class="header__lang-link" target="_blank">En</a>
+      </li>
+    </ul>
   </header>
 
   <main class="content">
     <section class="lead">
       <h1 class="lead__title">Путешествия по России</h1>
       <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
-      <img src="images/lead-image.jpg" alt="Фото интерьера поезда" class="lead__image">
-      <p class="lead__image-text">ваша полка — верхняя</p>
+      <figure class="lead__content">
+        <img src="./images/lead-image.jpg" alt="Фото интерьера поезда" class="lead__image">
+        <figcaption class="lead__image-text">ваша полка — верхняя</figcaption>
+      </figure>
     </section>
 
     <section class="root__section intro">
@@ -54,30 +60,28 @@
     </section>
 
     <section class="root__section gallery">
-      <div class="gallery__content">
-        <img src="images/gallery-train.jpg" alt="Вид из окна поезда" class="gallery__item">
-        <img src="images/gallery-atharva-tulsi.jpg" alt="Фото Атхарва Тулси" class="gallery__item">
-        <img src="images/gallery-tuman.jpg" alt="Фото тумана" class="gallery__item">
-        <img src="images/gallery-sochi.jpg" alt="Сочи" class="gallery__item">
-        <img src="images/gallery-arisa.jpg" alt="Прозрачный лед" class="gallery__item">
-        <img src="images/gallery-baikal.jpg" alt="Фото Байкала" class="gallery__item">
-        <img src="images/gallery-elbrus.jpg" alt="Фото Эльбруса" class="gallery__item">
-        <img src="images/gallery-kondratiev.jpg" alt="Фото Кондратьева" class="gallery__item">
-        <img src="images/gallery-kamchatka-1.jpg" alt="Фото Камчатки" class="gallery__item">
-        <img src="images/gallery-kamchatka-2.jpg" alt="Фото Камчатки" class="gallery__item">
-        <img src="images/gallery-baikal-2.jpg" alt="Фото Байкала" class="gallery__item">
-        <img src="images/gallery-ergaki.jpg" alt="Фото Ергаки" class="gallery__item">
-      </div>
+      <img src="./images/gallery-train.jpg" alt="Вид из окна поезда" class="gallery__item">
+      <img src="./images/gallery-atharva-tulsi.jpg" alt="Фото Атхарва Тулси" class="gallery__item">
+      <img src="./images/gallery-tuman.jpg" alt="Фото тумана" class="gallery__item">
+      <img src="./images/gallery-sochi.jpg" alt="Сочи" class="gallery__item">
+      <img src="./images/gallery-arisa.jpg" alt="Прозрачный лед" class="gallery__item">
+      <img src="./images/gallery-baikal.jpg" alt="Фото Байкала" class="gallery__item">
+      <img src="./images/gallery-elbrus.jpg" alt="Фото Эльбруса" class="gallery__item">
+      <img src="./images/gallery-kondratiev.jpg" alt="Фото Кондратьева" class="gallery__item">
+      <img src="./images/gallery-kamchatka-1.jpg" alt="Фото Камчатки" class="gallery__item">
+      <img src="./images/gallery-kamchatka-2.jpg" alt="Фото Камчатки" class="gallery__item">
+      <img src="./images/gallery-baikal-2.jpg" alt="Фото Байкала" class="gallery__item">
+      <img src="./images/gallery-ergaki.jpg" alt="Фото Ергаки" class="gallery__item">
     </section>
 
     <section class="root__section places">
       <article class="place">
         <h3 class="place__title">Куршская коса</h3>
-        <p class="place__link">
+        <p class="place__subtitle">
           url
-          <a href="http://park-kosa.ru" class="place__link-text" target="_blank">park-kosa.ru</a>
+          <a href="http://park-kosa.ru" class="place__link" target="_blank">park-kosa.ru</a>
         </p>
-        <img src="images/place-kosa.jpg" alt="Фото Парка Куршской косы" class="place__image">
+        <img src="./images/place-kosa.jpg" alt="Фото Парка Куршской косы" class="place__image">
         <div class="place__text">
           <p class="place__description">
             Здесь, посреди лесов и песчаных дюн, вы сможете увидеть два водных горизонта
@@ -93,11 +97,11 @@
       </article>
       <article class="place">
         <h3 class="place__title">Кольский</h3>
-        <p class="place__link">
+        <p class="place__subtitle">
           url
-          <a href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" class="place__link-text" target="_blank">National Geographic</a>
+          <a href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" class="place__link" target="_blank">National Geographic</a>
         </p>
-        <img src="images/place-kolsky.jpg" alt="Фото Кольского полуострова" class="place__image">
+        <img src="./images/place-kolsky.jpg" alt="Фото Кольского полуострова" class="place__image">
         <div class="place__text">
           <p class="place__description">
             Почти весь полуостров находится за Полярным кругом. Саамская тундра, от которой на юг —
@@ -113,11 +117,11 @@
       </article>
       <article class="place">
         <h3 class="place__title">Алтай</h3>
-        <p class="place__link">
+        <p class="place__subtitle">
           url
-          <a href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822" class="place__link-text" target="_blank">Facebook</a>
+          <a href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822" class="place__link" target="_blank">Facebook</a>
         </p>
-        <img src="images/place-altai.jpg" alt="Фото Алтая" class="place__image">
+        <img src="./images/place-altai.jpg" alt="Фото Алтая" class="place__image">
         <div class="place__text">
           <p class="place__description">
             Алтай — одно из красивейших мест в России.
@@ -130,11 +134,11 @@
       </article>
       <article class="place">
         <h3 class="place__title">Зимний Байкал</h3>
-        <p class="place__link">
+        <p class="place__subtitle">
           url
-          <a href="https://vk.com/baikalmile" class="place__link-text" target="_blank">https://vk.com/baikalmile</a>
+          <a href="https://vk.com/baikalmile" class="place__link" target="_blank">https://vk.com/baikalmile</a>
         </p>
-        <img src="images/place-winter-baikal.jpg" alt="Фото Зимнего Байкала" class="place__image">
+        <img src="./images/place-winter-baikal.jpg" alt="Фото Зимнего Байкала" class="place__image">
         <div class="place__text">
           <p class="place__description">
             Всем известен Байкал как крупнейшее озеро
@@ -148,11 +152,11 @@
       </article>
       <article class="place">
         <h3 class="place__title">Карелия</h3>
-        <p class="place__link">
+        <p class="place__subtitle">
           url
-          <a href="http://vodlozero.ru" class="place__link-text" target="_blank">http://vodlozero.ru/</a>
+          <a href="http://vodlozero.ru" class="place__link" target="_blank">http://vodlozero.ru/</a>
         </p>
-        <img src="images/place-karelia.jpg" alt="Фото Карелии" class="place__image">
+        <img src="./images/place-karelia.jpg" alt="Фото Карелии" class="place__image">
         <p class="place__description">
           Сибирь заканчивается не на Урале, а в Карелии: образующая тайгу сибирская лиственница не растёт западнее Водлозера. Зато здесь она вымахивает на 30 метров — леса карельских национальных парков из-за непроходимых болот никогда не знали топора. Некоторым соснам уже больше чем полтысячелетия. Прикоснитесь к живому существу, видевшему солнце раньше, чем увидал его Иван Грозный.
           В девственном лесу на сотню километров не встретишь тропы. А на редких тропинках деревья
@@ -161,12 +165,12 @@
       </article>
     </section>
 
-    <article class="cover">
+    <section class="cover">
       <a href="https://stampsy.com/na-elektrichkakh-do-baikala" class="cover__link" target="_blank">
         <h2 class="cover__title">До Байкала «на собаках»</h2>
         <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>
       </a>
-    </article>
+    </section>
   </main>
 
   <footer class="root__section footer">

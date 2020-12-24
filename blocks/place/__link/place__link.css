@@ -1,14 +1,18 @@
 .place__link {
-  align-self: end;
-  margin: 0;
-  font-size: 12px;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  color: #AAAAAA;
+  display: block;
+  max-width: fit-content;
+  margin-top: 12px;
+  font-size: 18px;
+  text-transform: none;
+  letter-spacing: normal;
+  color: #fff;
+  transition: opacity 0.2s ease-in;
 }
 
-@media all and (max-width: 767px) {
-  .place__link {
-    display: none;
-  }
+.place__link:hover {
+  opacity: 0.8;
+}
+
+.place__link:active {
+  opacity: 0.5;
 }

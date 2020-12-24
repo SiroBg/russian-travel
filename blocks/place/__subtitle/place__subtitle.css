@@ -1,0 +1,14 @@
+.place__subtitle {
+  align-self: end;
+  margin: 0;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #AAAAAA;
+}
+
+@media all and (max-width: 767px) {
+  .place__subtitle {
+    display: none;
+  }
+}
